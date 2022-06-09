@@ -66,7 +66,7 @@ if [ "$cmd" = "" ]; then
   docker run \
     --env REACT_APP_API_URL="$api_url" \
     --env PORT=$port \
-    -it roboticsmicrofarms/plant-3d-explorer:$vtag bash
+    -it roboticsmicrofarms/plant-3d-explorer:$vtag
 else
   # Start in non-interactive mode (run the command):
   docker run \
